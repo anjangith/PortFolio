@@ -2,46 +2,70 @@
 <html>
 <head>
 <title>PortFolio</title>
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="css/bootstrap.css" rel="stylesheet" >
+<link href="css/bootstrap.min.css" rel="stylesheet" >
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css?family=Teko&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
 <script src="https://unpkg.com/swiper/js/swiper.js"></script>
 <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src="includes/script.js"></script>
+<link rel="stylesheet" href="includes/style.css">
 <link rel="stylesheet" href="css/mycss.css">
 </head>
 <body>
-  <div class="swiper-container">
-      <!-- Additional required wrapper -->
-      <div class="swiper-wrapper">
-          <!-- Slides -->
-          <div class="swiper-slide">
-            <div class="container">
-  <div class="svg-wrapper mt-5">
-  <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
-    <rect class="shape" height="60" width="320" />
-  </svg>
-   <div class="text">PORTFOLIO</div>
+
+<div align="center">
+<div class="nav">
+  <ul >
+    <a href="/home"><li><div style="float: left;">
+        <img src="img/git.png" width="20px" height="20px" id="itemImg">
+    </div></li></a>
+    <a href="/home"><li><div style="float: left;">
+        <img src="img/images.png" width="20px" height="20px" id="itemImg">
+    </div></li></a>
+      <a href="/home"><li><div style="float: left;">
+          <img src="img/insta.png" width="20px" height="20px" id="itemImg">
+      </div></li></a>
+</ul>
+
+</div>
+  <div class="navicon">
+    <div class="bar first"></div>
+    <div class="bar middle"></div>
+    <div class="bar last"></div>
   </div>
-  <p class="text-white display-4">WELCOME</p>
+</div>
 
-              <div class="text-center">
-              <svg width="150px" height="150px" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style=""><defs><style>.cls-1{stroke:#fff;stroke-miterlimit:10;stroke-width:18px;}</style></defs><title>svg</title><path class="cls-1 fgIyMTpi_0" d="M218.5,470.5c0-17-68.24-76.09-82.56-101.5-19.44-34.5-23.46-54.5-23.44-71.5.06-43.5,6.13-56.57,10.44-68.5,18.56-51.5,95.34-189,95.34-189l.22,430"></path><path class="cls-1 fgIyMTpi_1" d="M245.5,470.5c0-17,68.24-76.09,82.56-101.5,19.44-34.5,23.46-54.5,23.44-71.5-.06-43.5-6.13-56.57-10.44-68.5C322.5,177.5,245.72,40,245.72,40l-.22,430"></path><style data-made-with="vivus-instant">.fgIyMTpi_0{stroke-dasharray:920 922;stroke-dashoffset:921;animation:fgIyMTpi_draw 1800ms linear 0ms forwards;}.fgIyMTpi_1{stroke-dasharray:920 922;stroke-dashoffset:921;animation:fgIyMTpi_draw 1800ms linear 0ms forwards;}@keyframes fgIyMTpi_draw{100%{stroke-dashoffset:0;}}@keyframes fgIyMTpi_fade{0%{stroke-opacity:1;}93.33333333333333%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style></svg>
-            </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
+<!-- Swiper -->
+   <div class="swiper-container">
+       <div class="swiper-wrapper">
+           <div class="swiper-slide">
+             <div class="jumbotron">
+             <h1 class="display-3">MY PORTFOLIO!</h1>
+             <h3>
+               THANK YOU
+               <small class="text-muted">for visiting</small>
+             </h3>             <hr class="my-4">
+             <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+             <blockquote class="blockquote">
+  <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+  <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+</blockquote>
+           </div></div>
+           <div class="swiper-slide">Slide 2</div>
+           <div class="swiper-slide">Slide 3</div>
 
-          </div>
-          <div class="swiper-slide">Slide 3</div>
-      </div>
-      <!-- If we need pagination -->
+       </div>
+       <!-- Add Pagination -->
+       <div class="swiper-pagination"></div>
+   </div>
 
 
-      <!-- If we need scrollbar -->
 
-  </div>
 </body>
 <script>
 
