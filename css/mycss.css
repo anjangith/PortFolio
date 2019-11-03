@@ -1,8 +1,8 @@
 html, body {
-  background: #000000;
+  background: #000;
   height: 100%;
   overflow: hidden;
-  text-align: center;
+  
 }
 
 .svg-wrapper {
